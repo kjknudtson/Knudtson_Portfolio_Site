@@ -1,0 +1,29 @@
+body {
+    background-color: lightslategray;
+}
+
+.container {
+    border: 1px solid;
+    background-color: ivory;
+    margin-top: 10px;
+    max-width: fit-content;
+    height: fit-content;
+    
+}
+
+p {
+    padding: 15px;
+    padding-left: 100px;
+
+}
+
+.refactor {
+    padding: 15px;  
+    padding-left: 55px;
+    
+}
+
+.col-sm-12 img {
+   text-align: center;
+}
+
