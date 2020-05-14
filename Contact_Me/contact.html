@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link to Bootstrap  -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- link to personal CSS stylesheet  -->
     <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
-    <title>Document</title>
+    <title>Portfolio Site</title>
 </head>
 <body>
+  <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="../index.html">Kyle</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,12 +18,18 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
+
+        <!-- Button to "About Me" Page -->
         <li class="nav-item">
           <a class="nav-link" href="../About_Me/aboutme.html">About Me<span class="sr-only">(current)</span></a>
         </li>
+
+        <!-- Button to "Portfolio" Page -->
         <li class="nav-item">
           <a class="nav-link" href="../Portfolio/portfolio.html">Portfolio</a>
         </li>
+
+        <!-- Button to "Contact Form" Page -->
         <li class="nav-item">
           <a class="nav-link active" href="contact.html">Contact Me</a>
         </li>
@@ -28,7 +37,10 @@
       </ul>
     </div>
   </nav>
+
+  <!-- Beginning on Content -->
   <section class="container">
+    <!-- Contact Form -->
     <div class="row">
       <div class="col-md-12">
         <h1>Contact Form</h1>
@@ -36,14 +48,17 @@
     </div>
       <form>
         <div class="form-group">
+          <!-- Part of form where you put your name -->
           <label for="formGroupExampleInput">Full Name</label>
           <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
         </div>
         <div class="form-group">
+          <!--  Part of form to put your email address -->
           <label for="exampleInputEmail1">Email</label>
           <input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@gmail.com">
         </div>
         <div class="form-group">
+          <!-- Part of form to put a small message -->
           <label for="exampleFormControlTextarea1">Message</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
@@ -51,6 +66,8 @@
       </form>
 
   </section>
+
+  <!-- links to Bootstrap JS for responsive Navigation Bar -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
