@@ -13,11 +13,10 @@ body {
     max-width: 750px;
 }
 
-/* Image formatting */
-.col-md-4 img {
-    height: 200px;
-    width: 200px;
-   padding-bottom: 10px;
+/* Jumbotron formatting */
+.jumbotron {
+   text-align: center;
+   margin: 10px;
 }
 
 
