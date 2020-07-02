@@ -2,7 +2,11 @@
 
 /* Background color */
 body {
-    background-color: lightslategray;
+    background-color: lightskyblue;
+}
+
+h1 {
+    text-align: center;
 }
 
 /* Container formatting */
@@ -21,6 +25,8 @@ body {
     font-size: 30px;
 
 }
+
+
 
 /* Image formatting */
 .col-sm-12 img {
@@ -45,7 +51,7 @@ body {
     bottom: 0;
     width: 100%;
     height: 60px;
-    background-color: #f5f5f5;
+    
     margin-top: 10px;
 }
 
